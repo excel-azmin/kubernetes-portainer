@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
       - name: portainer
-        image: portainer/portainer-ce:latest
+        image: portainer/portainer-ce:2.11.1
         ports:
         - containerPort: 9000
         volumeMounts:
